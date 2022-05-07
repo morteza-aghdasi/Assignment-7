@@ -1,0 +1,408 @@
+body{
+    font-family: 'Calibri Light';
+}
+
+
+
+#div-background-menue{
+    width: 100%;
+    height:30px;
+    background-color: black;
+    display: flex;
+}
+#menue{
+
+    list-style-type: none;
+    padding-left: 0px;
+    margin-top: -10px;
+
+}
+#menue li{
+    height:22px;
+    float: left;
+    position: relative;
+    margin: 10px;
+    margin-left: 0px;
+    padding: 4px;
+
+    text-align: center;
+}
+
+#menue li:hover{
+    background-color: aqua;
+}
+#submenue{
+    position: absolute;
+}
+#menue li #submenue{
+    list-style-type: none;
+    padding-left: 0px; 
+    display: none;
+
+}
+#submenue li{
+    margin-right:0px;
+    color:lightcyan;
+    float: none;
+}
+
+#menue li:hover #submenue{
+    background-color: aqua;
+    display: block;
+
+}
+
+
+#menue a{
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+}
+#submenue li:hover{
+    background-color: olivedrab; 
+    border-style: solid;
+    border-width: 1px;
+    border-color: aliceblue;
+}
+
+
+#learncss{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 280px;
+    left: 20px;
+    padding: 13px;
+}
+#learncss:hover{
+    background-color:dimgray;
+}
+#aks-name-takhasos{
+    width: 100%;
+    height: 340px;
+    background-color: transparent;
+    position: relative;
+    top: -18px;
+}
+#our-meet{
+    background-color: transparent;
+    width: 100%;
+    height: 95px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+}
+#aks-ashkhas{
+    width: 100%;
+    height: 150px;
+    background-color: transparent;
+    position: relative;
+    margin: auto;
+    display: flex;
+}
+#aks-ashkhas img{
+    width: 150px;
+    border-radius: 100%;
+    position: relative;
+    display: inline-block;
+    margin: auto;
+}
+#aks-ashkhas img:hover{
+    opacity: 0.7;
+    transform: scale(0.98);
+}
+#name{
+    width: 100%;
+    height: 50px;
+    background-color:transparent;
+    position: relative;
+    margin: auto;
+    display: flex;
+
+}
+#name h2{
+    position: relative;
+    display: inline-block;
+    margin: auto;
+    margin-right: 11%;
+}
+#takhasos{
+    width: 100%;
+    height: 50px;
+    background-color:transparent;
+    position: relative;
+    display: flex;
+}
+#takhasos h3{
+    color: lightslategray;
+    position: relative;
+    display: inline-block;
+    margin: auto;
+    margin-right: 12%;
+    margin-top: 5px;
+}
+
+
+
+#divkhakestari{
+    width: 100%;
+    height: 350px;
+    background-color: darkslategrey;
+    position: relative;
+    display: flex;
+
+
+} 
+.divpayin{
+    background-color: transparent;
+    width: 24%;
+    height: 320px;
+    display: inline-block;
+    position: relative;
+    left: 2px;
+
+}
+#payin1{
+    color: transparent;
+    margin: 10px;
+}
+
+
+#ourwork{
+
+    color: white;}
+
+
+#payin2{
+    background-color: white;
+    margin: 10px;
+}
+#abshar{
+    width: 100%;
+    height: 150px;
+    display: block;
+}
+#namarecustomer{
+    margin:auto;
+    padding: 1px;
+}
+.custom1{
+    margin: 10px;
+}
+#payin3{
+    background-color: white;
+    margin: 10px;
+}
+#payin4{
+    background-color: white;
+    margin: 10px;
+}
+
+#div-pricing{  
+    width: 180px;
+    height:52px;
+    position: relative;
+    margin: auto;
+    margin-top: -10px;
+    display: flex;
+}
+
+#div-choose{   
+
+    height:30px;
+    width: 500px;
+    position: relative;
+    margin: auto;
+    left: 80px;
+    margin-top: -18px;
+}
+#pricing{
+    background-color: transparent;
+    width: 100%;
+    height: 380px;
+    display: flex;
+    position:relative;
+    margin-top: 13px;
+}
+.bpp{
+    box-sizing: border-box;
+    width: 30%;
+    height: 385px;
+    border-style: solid;
+    border-width: 1px;
+    border-color:gainsboro; 
+    position: relative;
+    margin: auto;
+
+}
+.bpp:hover{
+    transform: scale(1.03);
+    box-shadow: 10px 11px 9px lightgray;
+    border-style: solid;
+    border-color: gray;
+    border-width: 6px;
+    border-radius:20px;
+}
+#li2:hover{
+    background-color: lightyellow;
+}
+#li3:hover{
+    background-color: lightyellow;
+}
+#basic ul{
+    padding-left: 0px;     
+}
+#basic li{
+    list-style-type: none;
+    font-size: 20px;
+    text-align: center;  
+}
+#h2basic,#h2premium{
+    color: white;
+}
+#h2pro{
+    color:white;
+}
+#li1pro{
+    background-color: gray;
+    padding: 1px;
+    margin-top: -16px;
+}
+#libasic-premium{
+    background-color: gray;
+    padding: 1px;
+    margin-top: -16px;
+    background-color: black;
+}
+#basic a{
+    background-color: seagreen;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 5px;
+
+}
+#basic a:hover{
+    background-color: gray;
+    color: yellow;
+}
+#li2{
+    border-bottom-style: solid;
+    border-bottom-color:gainsboro ;
+    border-bottom-width: 1px;
+    padding: 6px;
+}
+#li3{
+    font-size:50px;
+    padding:0px;
+}
+#li3 h1{
+    display: inline;
+}
+#li4{
+    background-color: gainsboro;
+    padding: 24px;
+}
+
+#div-form{
+    background-color:lightgray;
+    width: 100%;
+    height: 350px;
+    position: relative;
+    display: flex;
+    margin-top: 35px;
+
+}
+#div-contact{
+    background-color: transparent;
+    position: relative;
+    box-sizing: border-box;
+    margin: auto;
+    margin-left: 20px;
+    padding: 1px;
+    display: inline-block;
+}
+#div-contact h1{
+    text-decoration: underline;
+    text-decoration-color:forestgreen;
+}
+#myform{
+    width: 100%;
+}
+#div-input{
+    box-shadow: 5px 5px 7px gray;
+    background-color: #FEFDFD;
+    width: 55%;
+    height:80%;
+    position: relative;
+    margin: auto;
+    margin-right: 20px;
+    display: flex;
+    box-sizing: border-box;
+    padding:10px;
+}
+
+#input{
+    background-color:transparent;;
+    width:100%;
+    height: 10%;
+    border-style: solid;
+    border-width:1px;
+    border-color: transparent;
+    border-bottom-color: gray;
+    position: relative;
+    margin: auto;
+    box-sizing: border-box;
+
+
+}
+#a-form{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    margin: auto;
+    margin-left:80%;
+}
+#a-form:hover{
+    background-color: midnightblue;
+
+#map-google{
+    background-color:antiquewhite;;
+    width: 100%;
+    height: 400px;
+}
+#dayeresabz{
+    width: 60px;
+    height: 60px;
+    background-color: green;
+    border-radius: 100%;
+    position: absolute;
+    right: 15px;
+    top: 1020px;
+    display: flex;
+}
+#dayeresabz h1{
+    color: white;
+    margin: auto;
+}
+
+
+@media screen and (max-width:800px){
+
+    #div-background-menue,#menue,#submenue{
+        width: 15%;
+    }
+    #imgsea{
+        width:100%;
+    }
+    #learncss{
+        width: 15%;
+    }
+    
